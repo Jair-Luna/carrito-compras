@@ -1,0 +1,11 @@
+.layout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  color: #0a283e;
+}
+
+.container {
+  width: 1200px;
+}

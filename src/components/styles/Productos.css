@@ -1,0 +1,31 @@
+.productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.producto {
+  border: solid 1px #eee;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.producto img {
+  width: 100%;
+}
+
+.button {
+  background-color: #0a282e;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  background-color: #4b848f;
+}
